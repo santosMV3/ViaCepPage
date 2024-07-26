@@ -1,0 +1,62 @@
+/* Estilos gerais para o componente ViaCepTable */
+body {
+  background-color: #000000;
+}
+.via-cep-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #0283ed;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.via-cep-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.via-cep-input input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+
+  outline: none;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #000046;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #0000;
+}
